@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@layer utilities {
+    .gradient {
+      background: linear-gradient(to right, #f8aa62, #e4d1bf, #f78e48, #f58940);
+    }
+  }
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
